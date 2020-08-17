@@ -27,12 +27,21 @@ class MyApp extends StatelessWidget {
 class basicWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Container(
-      height: 100.0,
-      width: 300.0,
-      color: Colors.red,
-      child: Text("Hello world"),
+    return Row(
+      children: [
+        Container(
+          width: 100.0,
+          color: Colors.red,
+        ),
+        Container(
+          width: 100.0,
+          color: Colors.blue,
+        ),
+        Container(
+          width: 100.0,
+          color: Colors.yellow,
+        ),      
+      ],
     );
   }
 }
-
