@@ -27,18 +27,21 @@ class MyApp extends StatelessWidget {
 class basicWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Column(
+    return Stack(
       children: [
         Container(
-          height: 100.0,
+          height: 300.0,
+          width: 300.0,
           color: Colors.red,
         ),
         Container(
-          height: 100.0,
+          height: 200.0,
+          width: 200.0,
           color: Colors.blue,
         ),
         Container(
           height: 100.0,
+          width: 100.0,
           color: Colors.yellow,
         ),      
       ],
