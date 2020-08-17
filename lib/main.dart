@@ -27,8 +27,12 @@ class MyApp extends StatelessWidget {
 class basicWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Text(
-      "Hello World!"
+    return Container(
+      height: 100.0,
+      width: 300.0,
+      color: Colors.red,
+      child: Text("Hello world"),
     );
   }
 }
+
