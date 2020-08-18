@@ -29,11 +29,13 @@ class MyApp extends StatelessWidget {
 class basicWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Container(
-      color: Colors.deepOrange[300]                                          ,
-      height: 100.0,
-      width: 100.0,
-    );  
-
-    }
+    return Text(
+      "Hello World!",
+      style: TextStyle(
+        color: Colors.orange,
+        fontSize: 50.0,
+        fontWeight: FontWeight.bold
+      ),
+    );
+  }
 }
