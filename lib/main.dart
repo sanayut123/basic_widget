@@ -29,13 +29,10 @@ class MyApp extends StatelessWidget {
 class basicWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Column(
-      children: [
-        Image.network(
+    return Container(
+        child: Image.network(
           'https://picsum.photos/250?image=9',
         ),
-        Image.asset("assets/images/cake.jpg")
-      ],
-    );    
+    );  
     }
 }
