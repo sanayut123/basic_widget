@@ -30,9 +30,10 @@ class basicWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-        child: Image.network(
-          'https://picsum.photos/250?image=9',
-        ),
+      color: Colors.deepOrange[300]                                          ,
+      height: 100.0,
+      width: 100.0,
     );  
+
     }
 }
